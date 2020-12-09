@@ -1,6 +1,6 @@
-class CreateUsers < ActiveRecord::Migration[6.0]
+class CreatePlayers < ActiveRecord::Migration[6.0]
   def change
-    create_table :player do |t|
+    create_table :players do |t|
       t.string :name
       t.integer :team_id
 
