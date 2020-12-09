@@ -1,8 +1,7 @@
 class StatisticSerializer
   include JSONAPI::Serializer
   
-  attributes :pos,
-    :lng,
+  attributes :pos, :lng,
     :att,
     :att_per_game,
     :yards,
@@ -14,6 +13,6 @@ class StatisticSerializer
     :twenty_plus,
     :forty_plus,
     :fumbles,
-    :player_id,
+    :player_id
 
 end
